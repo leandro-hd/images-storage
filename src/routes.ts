@@ -9,6 +9,7 @@ const routes = Router();
 const upload = multer(uploadConfig);
 
 routes.get('/category', CategoryController.index);
+routes.get('/category/:id', CategoryController.show);
 routes.post('/category', upload.array('images'), CategoryController.store);
 
 export default routes;

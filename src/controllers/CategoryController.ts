@@ -9,7 +9,21 @@ export default {
     const category_show = await Category.findAll();
     const image_show = await Image.findAll();
 
-    return response.json({category_show, image_show});
+    return response.status(200).json({category_show, image_show});
+  },
+
+  async show(request: Request, response: Response) {
+    const { id } = request.params;
+
+    const category_show = await Category.findByPk(id);
+    
+    if (category_show === null) {
+      return response.status(400).json('Category not exists!');
+    }
+
+    const image_show = await Image.findAll({ where: { category_id: category_show.dataValues.id }});
+
+    return response.status(200).json(image_show);
   },
 
   async store(request: Request, response: Response) {
@@ -73,7 +87,7 @@ export default {
         await Image.create({ category_id: id.dataValues.id, path: image_formatted })
       }
     
-      return response.json({ data_images });
+      return response.status(201).json({ data_images });
     } catch {
       for (let requestImage of requestImages) {
         fs.unlink(requestImage.path, (err) => {
