@@ -50,7 +50,7 @@
   <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"/>
 </a>
 
-<br/>
+<br/><br/>
 
 <h2 id="execute"> 📷 Como Executar </h2>
 
