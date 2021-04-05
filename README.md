@@ -12,6 +12,12 @@
 
 <br/>
 
+<p align="center">
+  <img src="https://github.com/leandro-hd/images-storage/blob/master/resources/images-storage.png" alt="Diagrama" height="390px"/>
+</p>
+
+<br/>
+
 <p align="center"> Uma API criada para armazenar imagens, e atribuí-las a uma categoria específica. </p>
 
 <p align="center">
@@ -23,7 +29,7 @@
 
 <h2 id="status"> ✅ Status do Projeto </h2>
 
-<p> 🚧 Em construção... 🚧 </p>
+<p> ⭐ Concluído </p>
 
 <br/>
 
@@ -33,14 +39,16 @@
   ✔️ Armazenamento de imagens (arquivo e caminho); <br/><br/>
   ✔️ Atribuição de categoria às imagens; <br/><br/>
   ✔️ Tratamento de erros; <br/><br/>
-  ❌ Consulta de imagens por categoria;
+  ✔️ Consulta de imagens por categoria;
 </p>
 
 <br/>
 
 <h2 id="deploy"> 🚀 Deploy </h2>
 
-<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"/>
+<a href="https://images-storage.herokuapp.com/category">
+  <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"/>
+</a>
 
 <br/>
 
@@ -93,6 +101,7 @@
     
   ⚡ Para salvar uma categoria/imagem, envie uma requisição do método <strong>POST</strong> para a rota <strong>http://localhost:3333/category</strong>; </br></br>
   ⚡ Para visualizar todos os registros, envie uma requisição do método <strong>GET</strong> para a rota <strong>http://localhost:3333/category</strong>; </br></br>
+  ⚡ Para visualizar os registros de uma categoria, envie uma requisição do método <strong>GET</strong> para a rota <strong>http://localhost:3333/category/id</strong>; </br></br>
   ⚡ Todas as imagens salvas vão para a pasta <strong>uploads</strong>, e podem ser visualizadas através da rota <strong>http://localhost:3333/uploads/nome-da-imagem</strong>;
 <p>
 
