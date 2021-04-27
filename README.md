@@ -76,7 +76,7 @@
   $ <strong>cd images-storage</strong> <br/>
 
   Instale as dependências <br/>
-  $ <strong>yarn add</strong>
+  $ <strong>yarn install</strong>
 
   Execute a aplicação em modo de desenvolvimento <br/>
   $ <strong>yarn dev</strong> <br/>
@@ -124,11 +124,16 @@
 
 <h2 id="author"> 🏷️ Autor </h2>
 
-<p> Feito por <strong>Leandro Dias</strong>. 🤙 Entre em contato! </p>
-
-<p>
-  <img src="https://img.shields.io/badge/-Github-000?style=for-the-badge&logo=Github&logoColor=white&link=https://github.com/leandro-hd" alt="leandro-hd"/> &nbsp;
-  <img src=https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:leandrohg2003@gmail.com" alt="leandrohg2003@gmail.com" />
+<p> Feito por <strong>Leandro Dias</strong>. 🤙 Entre em contato! <br/>
+  <a href="https://www.linkedin.com/in/leandro-hd/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="https://www.github.com/leandro-hd/">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:leandrohg2003@gmail.com" alt="Gmail"/>
 </p>
 
 <br/>
