@@ -18,4 +18,13 @@ export default createGlobalStyle `
   html, body, #root {
     height: 100%;
   }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #A8A8B3;
+  }
 `;
